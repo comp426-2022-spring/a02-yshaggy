@@ -89,7 +89,7 @@ const flipX = coinFlip();
 if (flipX == call) {
   resultX = "win";
 } else {
-  resultX = " lose"; 
+  resultX = "lose"; 
 }
 return {call: call,flip: flipX, result: resultX}
 }
